@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-###NAME###-vanilla",
-  "title": "// DEV // ###TITLE### // Vanilla //",
+  "name": "khaosdev-khaostin-vanilla",
+  "title": "// DEV // Tin Revamped // Vanilla //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -25,6 +25,6 @@
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
+    "khaostin"
   ]
 }
