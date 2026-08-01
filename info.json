@@ -11,7 +11,10 @@
     "! space-age",
 
     "khaoslib >= 2.1.0",
+    "? khaoslead >= 0.1.0",
 
+    "! bzlead",
+    "! bzlead2",
     "! bztin",
     "! bztin2"
   ],

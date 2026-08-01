@@ -3,5 +3,7 @@ require("__khaostin__.prototypes.entity.resources.tin-ore")
 
 require("__khaostin__.prototypes.item.tin-ore")
 require("__khaostin__.prototypes.item.tin-plate")
+require("__khaostin__.prototypes.item.solder")
 
 require("__khaostin__.prototypes.recipe.tin-plate")
+require("__khaostin__.prototypes.recipe.solder")
