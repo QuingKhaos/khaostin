@@ -5,7 +5,7 @@ khaoslib_item:load {
   type = "item",
   name = "solder",
   subgroup = "intermediate-product",
-  order = "ab[tin]-a[solder]",
+  order = "ab[tin]-b[solder]",
   stack_size = 100,
   weight = 1 * kg,
 
