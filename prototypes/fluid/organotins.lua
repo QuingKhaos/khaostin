@@ -1,4 +1,3 @@
-local item_sounds = require('__base__.prototypes.item_sounds')
 local khaoslib_fluid = require("__khaoslib__.prototypes.fluid")
 
 khaoslib_fluid:load {

@@ -33,7 +33,7 @@ khaoslib_recipe:load("assembling-machine-2"):add_ingredient {type = "item", name
 local electronic_circuit = khaoslib_recipe:load("electronic-circuit")
 local electronic_circuit_result = electronic_circuit:get_result("electronic-circuit")
 if electronic_circuit_result and electronic_circuit_result.amount == 1 then
-  electronic_circuit:replace_result(function(result) return true end, function(result) result.amount = result.amount and result.amount * 2 or 0 return result end)
+  electronic_circuit:replace_result(function(_) return true end, function(result) result.amount = result.amount and result.amount * 2 or 0 return result end)
     :set {energy_required = 0.5}
 end
 
