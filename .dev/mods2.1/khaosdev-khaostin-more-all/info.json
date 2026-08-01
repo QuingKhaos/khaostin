@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-khaostin-more",
-  "title": "// DEV // Tin Revamped // More //",
+  "name": "khaosdev-khaostin-more-all",
+  "title": "// DEV // Tin Revamped // More // All //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -25,7 +25,11 @@
     "khaostransportgroup",
     "science-tab",
 
-    "khaostin"
+    "khaoslead",
+    "khaossilicon",
+    "khaostin",
+    "khaostitanium",
+    "khaoszirconium"
   ],
   "expansion_required": true
 }

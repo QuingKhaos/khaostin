@@ -16,7 +16,7 @@ If you want to see your favorite mod supported, please open a discussion thread 
 
 ## Compatible mods
 
-The following mods have their recipes changed to include lead:
+The following mods have their recipes changed:
 
 t.d.b.
 

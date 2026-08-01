@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-khaostin-more",
-  "title": "// DEV // Tin Revamped // More //",
+  "name": "khaosdev-khaostin-vanilla-all",
+  "title": "// DEV // Tin Revamped // Vanilla // All //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -8,9 +8,9 @@
   "factorio_version": "2.1",
   "dependencies": [
     "base",
-    "elevated-rails",
-    "quality",
-    "recycler",
+    "! elevated-rails",
+    "! quality",
+    "! recycler",
     "! space-age",
 
     "khaosdev",
@@ -25,7 +25,10 @@
     "khaostransportgroup",
     "science-tab",
 
-    "khaostin"
-  ],
-  "expansion_required": true
+    "khaoslead",
+    "khaossilicon",
+    "khaostin",
+    "khaostitanium",
+    "khaoszirconium"
+  ]
 }
