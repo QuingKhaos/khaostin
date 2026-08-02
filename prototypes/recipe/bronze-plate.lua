@@ -1,7 +1,7 @@
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 
 if settings.startup["khaostin-more-intermediates"].value --[[@as string]]:match("bronze") ~= nil then
-  khaoslib_recipe:load {
+  local recipe = khaoslib_recipe:load {
     type = "recipe",
     name = "bronze-plate",
     subgroup = "intermediate-product",
@@ -19,6 +19,13 @@ if settings.startup["khaostin-more-intermediates"].value --[[@as string]]:match(
     :set_results {
       {type = "item", name = "bronze-plate", amount = 20},
     }
-    :add_unlock("automation")
-    :commit()
+
+    if mods["khaosfoundry"] then
+      recipe:add_unlock("burner-foundry")
+        :set_categories {"founding"}
+    else
+      recipe:add_unlock("automation")
+    end
+
+    recipe:commit()
 end

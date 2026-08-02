@@ -21,3 +21,4 @@ require("__khaostin__.prototypes.technology.organotin-chemistry")
 require("__khaostin__.prototypes.technology.tinned-cable")
 
 require("__khaostin__.prototypes.compat.base")
+require("__khaostin__.prototypes.compat.khaosfoundry")

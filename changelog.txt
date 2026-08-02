@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: ????
+  Features:
+    - Integrate Foundry Revamped.
+  Bugfixes:
+    - Fast inserter should require bronze plate instead of tin plate.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-08-01
   Features:

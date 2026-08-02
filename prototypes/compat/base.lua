@@ -68,7 +68,7 @@ if settings.startup["khaostin-more-intermediates"].value --[[@as string]]:match(
 
   khaoslib_recipe:load("fast-inserter")
     :replace_ingredient(mods["khaosaluminium"] and "aluminium-plate" or "iron-plate", function(ingredient) ingredient.amount = math.max(1, ingredient.amount - 1) return ingredient end)
-    :add_ingredient {type = "item", name = "tin-plate", amount = 1}
+    :add_ingredient {type = "item", name = "bronze-plate", amount = 1}
     :commit()
 
   khaoslib_recipe:load("pump"):replace_ingredient("steel-plate", {type = "item", name = "bronze-plate", amount = 2}):commit()
