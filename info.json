@@ -4,7 +4,7 @@
   "description": "Adds tin, solder and more to the base game.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.12",
@@ -14,6 +14,8 @@
     "+ khaosfoundry >= 0.1.0",
     "? khaoslead >= 0.1.0",
 
+    "! bzaluminum",
+    "! bzaluminum2",
     "! bzlead",
     "! bzlead2",
     "! bztin",

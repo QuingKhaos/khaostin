@@ -25,13 +25,14 @@
     "khaostransportgroup",
     "science-tab",
 
-    "khaosbasiccrusher",
-    "khaosfoundry",
-    "khaoslead",
-    "khaossilicon",
+    "+ khaosaluminium",
+    "+ khaoscarbon",
+    "+ khaosfoundry",
+    "+ khaoslead",
+    "+ khaossilicon",
     "khaostin",
-    "khaostitanium",
-    "khaoszirconium"
+    "+ khaostitanium",
+    "+ khaoszirconium"
   ],
   "expansion_required": true
 }
